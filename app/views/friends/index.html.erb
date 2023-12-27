@@ -1,0 +1,44 @@
+<% if user_signed_in? %>
+
+  <h1>Friends</h1>
+
+  <div id="friends">
+    <table class="table table-striped table-boardered table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">
+            <strong>Name:</strong>
+          </th>
+          <th scope="col">
+            <strong>Email:</strong>
+          </th>
+          <th scope="col">
+            <strong>Phone:</strong>
+          </th>
+          <th scope="col">
+            <strong>Twitter:</strong>
+          </th>
+          <th colspan="1"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @friends.each do |friend| %>
+          <tr id="<%= dom_id friend %>">
+            <th><%= link_to friend.first_name + " " + friend.last_name, friend %></th>
+            <td><%= friend.email %></td>
+            <td><%= friend.phone %></td>
+            <td><%= friend.twitter %></td>
+            <td><%= link_to "Show this friend", friend %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+
+  <%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
+
+<% else %>
+  <h1>Home</h1>
+  <p>Ruby on Rails app</p> 
+<% end %>

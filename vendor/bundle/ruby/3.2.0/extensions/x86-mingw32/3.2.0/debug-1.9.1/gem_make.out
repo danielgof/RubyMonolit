@@ -1,0 +1,20 @@
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+D:/Programs/Ruby32/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-a5p8lw sitelibdir\=./.gem.20231225-1988-a5p8lw clean
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-a5p8lw sitelibdir\=./.gem.20231225-1988-a5p8lw
+generating debug-i386-mingw32.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-a5p8lw sitelibdir\=./.gem.20231225-1988-a5p8lw install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20231225-1988-a5p8lw/debug
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-a5p8lw sitelibdir\=./.gem.20231225-1988-a5p8lw clean

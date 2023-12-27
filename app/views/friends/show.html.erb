@@ -1,0 +1,15 @@
+
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+  <%= render @friend %>
+</div>
+
+<div>
+  <% if current_user.id != @friend.id %>
+    <%= button_to "Destroy this friend", @friend, method: :delete, class:"btn btn-danger" %>
+  <% end %>
+  <br/>
+  <% if current_user.id != @friend.id %>
+    <%= link_to "Edit this friend", edit_friend_path(@friend), class:"btn btn-secondary" %>
+  <% end %>
+  <%= link_to "Back to friends", friends_path, class:"btn btn-secondary" %>
+</div>

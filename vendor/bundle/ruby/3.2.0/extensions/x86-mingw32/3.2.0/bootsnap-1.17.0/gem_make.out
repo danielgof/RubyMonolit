@@ -1,0 +1,19 @@
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+D:/Programs/Ruby32/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-exj9gr sitelibdir\=./.gem.20231225-1988-exj9gr clean
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-exj9gr sitelibdir\=./.gem.20231225-1988-exj9gr
+generating bootsnap-i386-mingw32.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-exj9gr sitelibdir\=./.gem.20231225-1988-exj9gr install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20231225-1988-exj9gr/bootsnap
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-exj9gr sitelibdir\=./.gem.20231225-1988-exj9gr clean

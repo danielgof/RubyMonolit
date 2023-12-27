@@ -1,0 +1,28 @@
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/puma-6.4.0/ext/puma_http11
+D:/Programs/Ruby32/bin/ruby.exe extconf.rb
+checking for whether -fstack-protector-strong -D_FORTIFY_SOURCE=2 is accepted as CFLAGS... yes
+checking for whether -fstack-protector-strong -l:libssp.a is accepted as LDFLAGS... yes
+checking for -lssp... yes
+checking for BIO_read() in -llibcrypto... no
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+** Puma will be compiled without SSL support
+creating Makefile
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/puma-6.4.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-8za0cw sitelibdir\=./.gem.20231225-1988-8za0cw clean
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/puma-6.4.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-8za0cw sitelibdir\=./.gem.20231225-1988-8za0cw
+generating puma_http11-i386-mingw32.def
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/puma-6.4.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-8za0cw sitelibdir\=./.gem.20231225-1988-8za0cw install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20231225-1988-8za0cw/puma
+
+current directory: D:/PROGRAMMING/Ruby/friends/vendor/bundle/ruby/3.2.0/gems/puma-6.4.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20231225-1988-8za0cw sitelibdir\=./.gem.20231225-1988-8za0cw clean
